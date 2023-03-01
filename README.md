@@ -120,7 +120,7 @@ bool = isIteratorLike( null );
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/assert/is-iterable-like`][@stdlib/assert/is-iterable-like]</span><span class="delimiter">: </span><span class="description">test if a value is iterable-like.</span>
+-   <span class="package-name">[`@stdlib/assert-is-iterable-like`][@stdlib/assert/is-iterable-like]</span><span class="delimiter">: </span><span class="description">test if a value is iterable-like.</span>
 
 </section>
 
