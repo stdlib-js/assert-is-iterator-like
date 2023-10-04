@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isIteratorLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-iterator-like@deno/mod.js';
+import isIteratorLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-iterator-like@v0.1.1-deno/mod.js';
 ```
 
 #### isIteratorLike( value )
@@ -85,7 +85,7 @@ bool = isIteratorLike( {} );
 
 ```javascript
 import noop from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-noop@deno/mod.js';
-import isIteratorLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-iterator-like@deno/mod.js';
+import isIteratorLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-iterator-like@v0.1.1-deno/mod.js';
 
 var obj = {
     'next': noop
