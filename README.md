@@ -35,14 +35,30 @@ limitations under the License.
 
 > Test if a value is [`iterator`][mdn-iterator-protocol]-like.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/assert-is-iterator-like
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import isIteratorLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-iterator-like@esm/index.mjs';
+var isIteratorLike = require( '@stdlib/assert-is-iterator-like' );
 ```
 
 #### isIteratorLike( value )
@@ -83,14 +99,9 @@ bool = isIteratorLike( {} );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
-
-import noop from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-noop@esm/index.mjs';
-import isIteratorLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-iterator-like@esm/index.mjs';
+```javascript
+var noop = require( '@stdlib/utils-noop' );
+var isIteratorLike = require( '@stdlib/assert-is-iterator-like' );
 
 var obj = {
     'next': noop
@@ -106,10 +117,6 @@ bool = isIteratorLike( [] );
 
 bool = isIteratorLike( null );
 // returns false
-
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -139,7 +146,7 @@ bool = isIteratorLike( null );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -156,7 +163,7 @@ See [LICENSE][stdlib-license].
 
 ## Copyright
 
-Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
+Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 </section>
 
@@ -203,7 +210,7 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/assert/is-iterable-like]: https://github.com/stdlib-js/assert-is-iterable-like/tree/esm
+[@stdlib/assert/is-iterable-like]: https://github.com/stdlib-js/assert-is-iterable-like
 
 <!-- </related-links> -->
 
