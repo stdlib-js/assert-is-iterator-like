@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import isIteratorLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-iterator-like@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/assert-is-iterator-like/tags). For example,
+
+```javascript
 import isIteratorLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-iterator-like@v0.2.3-esm/index.mjs';
 ```
 
@@ -90,7 +95,7 @@ bool = isIteratorLike( {} );
 <script type="module">
 
 import noop from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-noop@esm/index.mjs';
-import isIteratorLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-iterator-like@v0.2.3-esm/index.mjs';
+import isIteratorLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-iterator-like@esm/index.mjs';
 
 var obj = {
     'next': noop
